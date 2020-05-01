@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Tileset/Tile set 1.tsx" type="TileSet" id=1]
+[ext_resource path="res://player.tscn" type="PackedScene" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 393218, 0, 0, 393219, 1, 0, 393220, 1, 0, 393221, 1, 0, 393222, 1, 0, 393223, 1, 0, 393224, 1, 0, 393225, 2, 0, 458754, 16, 0, 458755, 17, 0, 458756, 17, 0, 458757, 17, 0, 458758, 17, 0, 458759, 17, 0, 458760, 17, 0, 458761, 18, 0, 524290, 16, 0, 524291, 17, 0, 524292, 17, 0, 524293, 17, 0, 524294, 17, 0, 524295, 17, 0, 524296, 17, 0, 524297, 18, 0, 589826, 32, 0, 589827, 33, 0, 589828, 33, 0, 589829, 33, 0, 589830, 33, 0, 589831, 33, 0, 589832, 33, 0, 589833, 34, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 147.644, 60.7821 )
+gravity = 500.0
+speed = Vector2( 300, 200 )

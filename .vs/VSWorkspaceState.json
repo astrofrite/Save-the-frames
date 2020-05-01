@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Actor",
+    "\\Tiled map",
+    "\\Tileset"
   ],
   "SelectedNode": "\\Save the frames.sln",
   "PreviewInSolutionExplorer": false
