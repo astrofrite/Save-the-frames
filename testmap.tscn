@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Tileset/tileset ground.tres" type="TileSet" id=1]
+[ext_resource path="res://player.tscn" type="PackedScene" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 222.074, 78.9254 )
+gravity = 400.0
+speed = Vector2( 300, 200 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_custom_transform = Transform2D( 0, 0, 0, 0, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 262147, 0, 0, 262148, 1, 0, 262149, 1, 0, 262150, 1, 0, 262151, 1, 0, 262152, 1, 0, 262153, 1, 0, 262154, 1, 0, 262155, 1, 0, 262156, 1, 0, 262157, 1, 0, 262158, 1, 0, 262159, 9, 0, 262160, 10, 0, 327689, 37, 0, 327690, 37, 0, 327691, 37, 0, 327696, 13, 0, 327697, 9, 0, 327698, 10, 0, 393217, 36, 0, 393218, 37, 0, 393219, 37, 0, 393220, 50, 0, 393229, 51, 0, 393230, 37, 0, 393231, 37, 0, 393232, 53, 0, 393234, 13, 0, 393235, 1, 0, 393236, 2, 0, 458768, 55, 0, 458769, 37, 0, 458770, 38, 0, 589843, 11, 0, 589844, 12, 0, 589845, 1, 0, 589846, 1, 0, 589847, 1, 0, 589848, 2, 0, 655375, 16, 0, 655376, 1, 0, 655377, 1, 0, 655378, 1, 0, 655379, 14, 0, 720905, 0, 0, 720906, 1, 0, 720907, 1, 0, 720908, 1, 0, 720909, 1, 0, 720910, 1, 0, 720911, 18, 0 )
