@@ -4,7 +4,7 @@
 [ext_resource path="res://Actor/player.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 5.58163, 8.18668 )
+extents = Vector2( 7.82527, 9.42067 )
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 2 )
