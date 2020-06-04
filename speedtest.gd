@@ -1,6 +1,8 @@
 extends Area2D
 
-signal test
+signal gravtest(gravreq)
+
+export var gravreq : int = 2
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -20,4 +22,4 @@ func _ready():
 
 
 func _on_speedtest_body_entered(body):
-	emit_signal("test") 
+	emit_signal("gravtest", gravreq) 

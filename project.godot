@@ -21,6 +21,8 @@ _global_script_class_icons={
 [application]
 
 config/name="Save the frames"
+run/main_scene="res://testmap.tscn"
+run/disable_stdout=true
 config/icon="res://icon.png"
 
 [audio]
